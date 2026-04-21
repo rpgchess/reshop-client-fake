@@ -1,0 +1,14 @@
+{
+  "name": "reshop-client",
+  "version": "1.0.0",
+  "description": "Eviroment MOC",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claudio A. Martins",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
