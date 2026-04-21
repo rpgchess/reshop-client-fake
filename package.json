@@ -1,14 +1,31 @@
 {
-  "name": "reshop-client",
+  "name": "reshop-client-fake",
   "version": "1.0.0",
-  "description": "Eviroment MOC",
+  "description": "Mock server para simular a API do Reshop Client",
   "main": "client.js",
+  "keywords": [
+    "mock",
+    "fake",
+    "api",
+    "reshop",
+    "express",
+    "testing"
+  ],
   "scripts": {
+    "start": "node client.js",
+    "dev": "nodemon client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Claudio A. Martins",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
   }
 }
